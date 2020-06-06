@@ -1,9 +1,10 @@
-import { kata } from './kata';
+import { persistence } from './kata';
 
-describe('Test here', () => {
-  it('should return obj', () => {
-    const result = kata({ 123: 321 });
-
-    expect(result).toEqual({ 123: 321 });
+describe('Initial Tests', function () {
+  it('should return expected result', () => {
+    expect(persistence(39)).toEqual(3);
+    expect(persistence(4)).toEqual(0);
+    expect(persistence(25)).toEqual(2);
+    expect(persistence(999)).toEqual(4);
   });
 });
