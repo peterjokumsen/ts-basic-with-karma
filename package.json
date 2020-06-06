@@ -1,0 +1,31 @@
+{
+  "name": "ts-basic-with-karma",
+  "version": "1.0.0",
+  "description": "Basic TypeScript project with karma tests, to be used for TypeScript katas",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.5.10",
+    "jasmine-core": "^3.5.0",
+    "karma": "^5.0.9",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^3.3.1",
+    "karma-spec-reporter": "0.0.32",
+    "karma-typescript": "^5.0.3",
+    "typescript": "^3.9.5"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterjokumsen/ts-basic-with-karma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterjokumsen/ts-basic-with-karma/issues"
+  },
+  "homepage": "https://github.com/peterjokumsen/ts-basic-with-karma#readme"
+}
