@@ -1,9 +1,10 @@
-import { kata } from './kata';
+import { bouncingBall } from './kata';
 
-describe('Test here', () => {
-  it('should return obj', () => {
-    const result = kata({ 123: 321 });
-
-    expect(result).toEqual({ 123: 321 });
+describe("Fixed Tests sumFracts", function() {
+  it("Basic tests", function() {
+    expect(bouncingBall(3.0, 0.66, 1.5)).toEqual(3);
+    expect(bouncingBall(30.0, 0.66, 1.5)).toEqual(15);
+    expect(bouncingBall(30, 0.75, 1.5)).toEqual(21);
+    expect(bouncingBall(30, 0.4, 10)).toEqual(3);
   });
 });
